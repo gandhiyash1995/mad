@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   body
+{
+	background-image: url("images/water.jpeg");
+	background-repeat: no-repeat center center fixed;
+	background-size: 50%;
+}
+#img1
+{
+ border:3px solid white;
+}
+    </style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+ <script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script>
+ $(document).ready(function()
+ {
+   
+     $("#p1").slideDown(1000);
+	$("#p2").show("slide", { direction: "down" }, 100)
+
+	
+		});
+		</script>
+</head>
+<body>
+    <p id="p1" style="display:none;"><img id="img1" src="http://localhost/MAD/images/find.png" style="margin-top:15%; margin-left:35%; width:30%;height:30%;"></p>
+     <p  id="p2" style="display:none;"><a href="LoginForm.html"><img style="height:20% ; width:10%; margin-left:45%;" src="http://localhost/MAD/images/right.png" ></a></p>
+
+</body>
+</html>

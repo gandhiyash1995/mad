@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+    .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+td
+{
+width : 35px;
+height: 60px;
+font-family:Times New Roman;
+font-size:20px;
+color:green;
+text-align :center;
+vertical-align :middle;
+background-color:white;
+}
+
+a:link {
+    color: green;
+        text-decoration: none;
+
+}
+
+a:visited {
+    color: green;
+        text-decoration: none;
+
+}
+
+</style>
+</head>
+<body bgcolor="#e9e9e9">
+<h1 style =" font-family:Times New Roman;color:green;" align="center">Login<h1>
+<form name ="f1" action="login.php" method="post">
+<table align="center" width="30%" border="2px solid green">
+<tr>
+<td>Username</td>
+<td><input type="text" name="usr" required /> </td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="Password"  required /> </td>
+</tr>
+<tr>
+<td colspan="2"> <input type="reset" name="rst" value="Clear" class="button"/>&nbsp&nbsp&nbsp
+<input type="submit" name="bt" value="Login" class="button"/> </a></td>
+</tr>
+</table>
+</form>
+<p id="demo"></p>
+<p align="center"> <a href = "RegisterForm.php">Register,not yet?</a></p>
+</body>
+</html>
